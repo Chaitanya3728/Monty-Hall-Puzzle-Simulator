@@ -5,10 +5,11 @@ In the Monty Hall problem, there are three doors. Behind one of the doors, there
 
 The puzzle arises from the question: What is the best strategy for the participant? Should they stick with their original choice, or should they switch doors to improve their chances of winning the prize?
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 How the Code Simulates the Game:
 
 The code initializes three doors as an empty list and two goat doors as an empty list.
-
 It uses a loop to simulate the game scenario multiple times (in this case, 10 times).
 
 Inside the loop:
@@ -24,6 +25,7 @@ If their initial choice was a goat door, they lose.
 If their initial choice was the prize door, they win without swapping.
 The code keeps track of the number of wins for both the swapping and not swapping strategies.
 After the loop, the code prints the total number of wins for both the swapping and not swapping strategies.
+
 
 Simulation and Probability:
 
